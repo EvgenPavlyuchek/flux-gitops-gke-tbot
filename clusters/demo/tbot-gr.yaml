@@ -1,0 +1,11 @@
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: tbot
+  namespace: demo
+spec:
+  interval: 1m0s
+  ref:
+    # branch: main
+    branch: develop
+  url: https://github.com/EvgenPavlyuchek/tbot

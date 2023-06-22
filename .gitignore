@@ -3,6 +3,5 @@
 .terraform.lock.hcl
 terraform.tfstate
 terraform.tfstate.backup
-demo
 .\modules\kind\kind-config
 vars.tfvars
